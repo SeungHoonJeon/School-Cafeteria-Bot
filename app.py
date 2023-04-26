@@ -222,7 +222,7 @@ def Message():
     elif content == "Cafe Dream": #완
         dataSend = kakao_data(cafe_dream())
     elif content == "오늘의 기숙사 식단":
-        dataSend == kakao_data(dorm_food())
+        dataSend = kakao_data(dorm_food())
     elif content == "학교공지":
         dataSend = kakao_data(notice())
     elif content == "학사일정":
