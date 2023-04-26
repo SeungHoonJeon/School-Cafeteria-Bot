@@ -217,7 +217,7 @@ def Message():
         dataSend = kakao_data(meogbang_food())
     elif content == "Cafe In": #완
         dataSend = kakao_data(Caffeine_food())
-    elif content == "버거&커피": #완
+    elif content == "버거앤커피": #완
         dataSend = kakao_data(buger_coffee())
     elif content == "Cafe Dream": #완
         dataSend = kakao_data(cafe_dream())
