@@ -155,44 +155,44 @@ def tu_cal():
     
 def cup_food():
     f = open("./menu/Cup_Rice.txt","r")
-    f.close()
     menu = f.read()
+    f.close()
     return menu
 
 def china_food():
     f = open("./menu/Beijing_Story.txt","r")
-    f.close()
     menu = f.read()
+    f.close()
     return menu
 
 def foursome_food(): 
     f = open("./menu/Four_Some.txt","r")
-    f.close()
     menu = f.read()
+    f.close()
     return menu
 
 def meogbang_food():
     f = open("./menu/Mugbang_Lounge.txt","r")
-    f.close()
     menu = f.read()
+    f.close()
     return menu
 
 def Caffeine_food():
     f = open("./menu/Cafe_In.txt","r")
-    f.close()
     menu = f.read()
+    f.close()
     return menu
 
 def buger_coffee():
     f = open("./menu/Bugger_And_Coffee.txt","r")
-    f.close()
     menu = f.read()
+    f.close()
     return menu
 
 def cafe_dream():
     f = open("./menu/Cafe_Dream.txt","r")
-    f.close()
     menu = f.read()
+    f.close()
     return menu
 
 app = Flask(__name__)
